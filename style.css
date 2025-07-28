@@ -35,17 +35,21 @@ body{
 }
 
 @keyframes slider {
-    0%, 33% {
-        background-image: url(./img/olhos-gato.jpg);
-        --text-description: "Olhos de gato!"
+    0%, 25% {
+        background-image: url(./img/biblioteca.jpeg);
+        --text-description: "Biblioteca - Alívio de estresse!"
     }
-    34%, 66% {
-        background-image: url(./img/olhos-cachorro.jpg);
-        --text-description: "Olhos de cachorro!"
+    26%, 50% {
+        background-image: url(./img/cantina.jpeg);
+        --text-description: "Cantina - Melhor Bolo de chocolate!"
     }
-    67%, 100% {
-        background-image: url(./img/olhos-aguia.jpg);
-        --text-description: "Olhos de aguia!"
+    51%, 75% {
+        background-image: url(./img/jardim.jpeg);
+        --text-description: "Jardim - Momentos de Tranquilidade!"
+    }
+    76%, 100% {
+        background-image: url(./img/saida.jpeg);
+        --text-description: "Saída - Finalmente!!!"
     }
 }
 @keyframes fade {
